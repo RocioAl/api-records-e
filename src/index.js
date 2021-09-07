@@ -17,7 +17,7 @@ app.use(express.json());
 
 // rutas
 app.use(require('./routes/index'));
-app.use('/records', require('./routes/records'));
+app.use('/months', require('./routes/months'));
 // app.use('/products/1', require('./routes/1'));
 // app.use('/products/2', require('./routes/2'));
 // app.use('/products/3', require('./routes/3'));
